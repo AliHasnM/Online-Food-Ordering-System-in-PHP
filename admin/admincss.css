@@ -1,0 +1,125 @@
+body{
+    background: url('../images/black.jpg') no-repeat center center/cover;
+    /* z-index: -1; */
+    /* opacity: 0.8; */ 
+}
+.center{
+    text-align: center;
+    color: white ;
+}
+table {
+    width: 70%;
+    /* border: 2px solid white; */
+    border: 2px solid rgb(255, 147, 15);
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 1.5rem;
+}
+table img{
+    text-decoration: none;
+    color: aliceblue;
+}
+table thead tr td a{
+    color: white;
+    background-color: beige;
+}
+
+/* Form CSS  */
+.form {
+    /* border: 2px solid black; */
+    border: 2px solid rgb(255, 147, 15);
+    border-radius: 10px;
+}
+
+#contact-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+#contact-box input {
+    width: 92%;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.form-group {
+    font-size: 1.5rem;
+    margin: 10px 10px;
+    color: white;
+}
+
+button {
+    padding: 2px 10px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(0, 96, 186);
+    color: white;
+    margin: 4px auto;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 2px 2PX;
+    width: 80px;
+    height: 30px;
+}
+
+/* Aside for Button  */
+#asidebar{
+    /* position: fixed; */
+    float: left; /* element on right or left */
+    border: 2px solid rgb(255, 213, 0);
+    width: 20%;
+    height: 100vh;
+    padding-top: 2%;
+    background-color: rgb(255, 147, 15);
+    font-size: 2rem;
+    text-align: center;
+}
+#asidebar img{
+    width: 20%;
+    margin: 5px 20px;
+}
+/* #asidebar li{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+    padding: 20px 20px;
+    width: 250px;
+    font-size: 1rem;
+    background-color: aquamarine;
+    text-align: center;
+    cursor: pointer;  
+} */
+#asidebar a{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+    padding: 20px 20px;
+    width: 250px;
+    font-size: 1rem;
+    background-color: aquamarine;
+    text-align: center;
+    cursor: pointer;  
+}
+#asidebar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+#asidebar a{
+    margin: 15px;
+}
+#asidebar a:hover{
+    background-color:  rgb(255, 140, 1);
+    color: white;
+}
+#asidebar a:active{
+    background-color: rgb(255, 147, 15);
+    color: white;   
+}
